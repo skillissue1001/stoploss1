@@ -40,7 +40,16 @@ export function useTradeData() {
 
   const processTradeData = (data) => {
     if (!data || !Array.isArray(data)) {
-      throw new Error('Invalid data format received')
+      // Instead of throwing an error, gracefully handle invalid data
+      state.trades = []
+      state.originalMetrics = {
+        totalPnL: 0,
+        winRate: 0,
+        avgWin: 0,
+        avgLoss: 0,
+        totalTrades: 0
+      }
+      return
     }
 
     // Process trades and calculate metrics
