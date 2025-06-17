@@ -1,0 +1,79 @@
+// Typography Styles
+.text-xs {
+  font-size: $font-size-xs;
+  line-height: $line-height-tight;
+}
+
+.text-sm {
+  font-size: $font-size-sm;
+  line-height: $line-height-normal;
+}
+
+.text-base {
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+}
+
+.text-lg {
+  font-size: $font-size-lg;
+  line-height: $line-height-normal;
+}
+
+.text-xl {
+  font-size: $font-size-xl;
+  line-height: $line-height-tight;
+}
+
+.text-2xl {
+  font-size: $font-size-2xl;
+  line-height: $line-height-tight;
+}
+
+.text-3xl {
+  font-size: $font-size-3xl;
+  line-height: $line-height-tight;
+}
+
+.font-light {
+  font-weight: $font-weight-light;
+}
+
+.font-normal {
+  font-weight: $font-weight-normal;
+}
+
+.font-medium {
+  font-weight: $font-weight-medium;
+}
+
+.font-semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.font-bold {
+  font-weight: $font-weight-bold;
+}
+
+.text-primary {
+  color: $text-primary;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-tertiary {
+  color: $text-tertiary;
+}
+
+.text-success {
+  color: $success-500;
+}
+
+.text-error {
+  color: $error-500;
+}
+
+.text-warning {
+  color: $warning-500;
+}
